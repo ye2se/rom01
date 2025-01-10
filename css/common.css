@@ -1,0 +1,15 @@
+body {
+    color: #333;
+    letter-spacing: -0.025em;
+}
+
+.inner {
+    max-width: 1410px;
+    margin: 0 auto;
+}
+
+.highlight {
+    background: rgba(221, 221, 221, 0.5);
+    font-weight: 600;
+    padding: 0 3px;
+}

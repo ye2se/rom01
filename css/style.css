@@ -1,0 +1,164 @@
+#header {
+    position: absolute;
+    width: 100%;
+    background: rgba(299, 299, 299, 0.4);
+    backdrop-filter: blur(2px);
+    z-index: 999;
+}
+
+#header .inner {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+#header .inner .gnb {
+    margin-left: auto;
+}
+
+#header .inner .gnb>ul {
+    display: flex;
+    gap: 40px;
+}
+
+#header .inner .gnb>ul>li {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    color: 222;
+}
+
+#header .inner .gnb>ul .bl {
+    color: #2E64AF;
+}
+
+#header .inner .utills {
+    display: flex;
+    gap: 16px;
+    margin-left: 80px;
+}
+
+.main_visual {}
+
+.main_visual .u_box {
+    height: 100vh;
+}
+
+.main_best {
+    padding: 120px 0;
+    position: relative;
+}
+
+.main_best .inner {}
+
+.main_best .inner::after {
+    content: "";
+    background: #ddd;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    z-index: 999;
+}
+
+.main_best .inner h2 {
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
+
+    margin-bottom: 24px;
+}
+
+.main_best .slide_wrap {
+    max-width: calc((100% - 1410px) / 2 + 1410px);
+    margin-left: auto;
+}
+
+.main_best .main_best_slide .itm {
+    width: 450px;
+    height: auto;
+    position: relative;
+}
+
+.main_best .main_best_slide .itm .desc {
+    width: 450px;
+}
+
+.main_best .main_best_slide .itm .desc figure>img {
+    object-fit: cover;
+    border: 1px solid #f7f8f9;
+    margin-bottom: 16px;
+}
+
+.main_best .main_best_slide .itm .desc .keyword_wrap {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    display: flex;
+    gap: 8px;
+}
+
+.main_best .main_best_slide .itm .desc .keyword_wrap em {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 700;
+    color: #fff;
+
+    padding: 4px 12px;
+    background: rgba(251, 145, 163, 0.7);
+    border-radius: 16px;
+}
+
+.main_best .main_best_slide .itm .desc .text_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 0 8px;
+}
+
+.main_best .main_best_slide .itm .desc .text_wrap .txt strong {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+}
+
+.main_best .main_best_slide .itm .desc .text_wrap .txt p {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: -0.05em;
+    color: #888;
+}
+
+.main_best .main_best_slide .itm .desc .text_wrap .price_wrap {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+}
+
+.main_best .main_best_slide .itm .desc .text_wrap .price_wrap>em {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main_only {
+    padding: 120px 0;
+    position: relative;
+}
+
+.main_only::before {
+    content: "";
+    background: #ddd;
+    height: 1px;
+    position: absolute;
+}
+
+.main_only .inner h2 {
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
+
+    margin-bottom: 24px;
+}
